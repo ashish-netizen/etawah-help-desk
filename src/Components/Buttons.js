@@ -9,6 +9,7 @@ import doctor from "../assets/doctor.png";
 import beds from "../assets/hospital-bed.png";
 import vaccine from "../assets/syringe.png";
 import food from "../assets/diet.png";
+import volunteer from "../assets/solidarity.png";
 
 const Buttons = () => {
   return (
@@ -74,7 +75,7 @@ const Buttons = () => {
             </a>
           </Col>
           <Col sm={12} md={6} lg={4} style={{ textAlign: "center" }}>
-            <a href="#">
+            <a href="https://docs.google.com/spreadsheets/d/1pxF6avP5Fa21ZrYqLjgTDg1uX0N8oD6yhndxzVDRLBk/edit?usp=sharing">
               <Button
                 variant="outline-danger"
                 style={{ border: "none", borderRadius: "50%", margin: "5px" }}
@@ -90,7 +91,7 @@ const Buttons = () => {
             </a>
           </Col>
           <Col xs={12} md={6} lg={4} style={{ textAlign: "center" }}>
-            <a href="#">
+            <a href="https://docs.google.com/spreadsheets/d/1s0_4kjEuBgoC2fVu36qS5DqoyKJifuJUCkZVI6YJbMA/edit?usp=sharing">
               <div>
                 <Button
                   variant="outline-danger"
@@ -123,7 +124,23 @@ const Buttons = () => {
               <h3>Hospital Beds</h3>
             </a>
           </Col>
-          <Col style={{ textAlign: "center" }}>
+          <Col xs={12} md={6} lg={4} style={{ textAlign: "center" }}>
+            <a href="#">
+              <Button
+                variant="outline-danger"
+                style={{ borderRadius: "50%", margin: "5px", border: "none" }}
+              >
+                <img
+                  src={volunteer}
+                  alt="Volunteers"
+                  width="175"
+                  height="175"
+                />
+              </Button>
+              <h3>Volunteers list</h3>
+            </a>
+          </Col>
+          <Col xs={12} md={6} lg={4} style={{ textAlign: "center" }}>
             <a href="#">
               <Button
                 variant="outline-danger"
@@ -139,7 +156,7 @@ const Buttons = () => {
               <h3>Vaccination center</h3>
             </a>
           </Col>
-          <Col style={{ textAlign: "center" }}>
+          <Col xs={12} md={6} lg={4} style={{ textAlign: "center" }}>
             <a href="#">
               <Button
                 variant="outline-danger"
